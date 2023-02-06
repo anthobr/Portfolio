@@ -130,7 +130,7 @@ h2{
     width: 50%;
     height: 75%;
     background-color:  black ;
-    margin: 5% 0 5% 5%;
+    margin: 5%;
     color: white;
     box-sizing: border-box;
 }
@@ -141,13 +141,13 @@ h2{
     text-decoration: underline;
     text-align: center;
     color: white;
-    margin: 3% 0 2% 0;
+    margin: 3% 0 4% 0;
 }
 
 label {
     display: block;
     font-size: 1.3em;
-    margin: 0 20% 0 5%;
+    margin: 0 8% 0 5%;
 }
   
 input,textarea{
@@ -162,6 +162,7 @@ input,textarea{
 
 textarea{
     display: block;
+    height: 4em;
     max-height: 5em;
     min-height: 2em;
     max-width: 100%;
@@ -171,7 +172,7 @@ textarea{
 .button{
     display: block;
     width: 50%;
-    margin: 1em auto;
+    margin: 2em auto;
     height: 2em;
     font-size: 1.5em;
     background-color: lightgray;
