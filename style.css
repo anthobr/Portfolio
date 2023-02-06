@@ -30,14 +30,13 @@ li{
 
 a{
     color: white;
-    font-size: 2em;
-    padding: 1.5em;
+    font-size: 1.5em;
+    padding: 1em;
     text-decoration: none;
 }
 
 a:hover{
     background-color: red;
-    padding: 0.5em;
 }
 
 .welcome{
@@ -129,18 +128,20 @@ h2{
 .contact-form{
     display: block;
     width: 50%;
-    height: 70%;
+    height: 75%;
     background-color:  black ;
     margin: 5% 0 5% 5%;
     color: white;
+    box-sizing: border-box;
 }
 
 .title-form{
+    display: block;
     font-size: 2em;
     text-decoration: underline;
     text-align: center;
     color: white;
-    margin: 5% 0 2% 0;
+    margin: 3% 0 2% 0;
 }
 
 label {
@@ -160,6 +161,7 @@ input,textarea{
 }
 
 textarea{
+    display: block;
     max-height: 5em;
     min-height: 2em;
     max-width: 100%;
@@ -181,7 +183,7 @@ textarea{
 .map{
     width: 20%;
     height: 20%;
-    margin: 5% 10%;
+    margin: 8% 10% 0% 10%;
 }
 
 .title-map{
@@ -206,25 +208,40 @@ textarea{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 .footer-title{
     display: flex;
-    color: red;
-    font-size: 3em;
-    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding-top: 2%;
+    color: red;
+    font-size: 2em;
+    padding-bottom: 1.5em;
 }
 
 .lien{
     display: flex;
     flex-direction: row;
-    font-size: 1em;
-    height: 100%;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    font-size: 1em;
 }
 
+.connexion{
+    padding-left: 25%;
+}
+
+.top{
+    display: block;
+    padding-left: 20%;
+}
+
+.btn-top{
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+}
