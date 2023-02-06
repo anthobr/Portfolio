@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav id="navbar" class="navbar">
+        <!--NAVLIST-->
+        <ul class="navlist">
+            <li><a href="#welcome">HOME</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <!--/NAVLIST-->
+    </nav>
+    <!--/NAVBAR-->
+    <!--WELCOME SECTION-->
+    <section id="welcome" class="welcome">
+        <!--MY PHOTO-->
+        <div>
+            <img src="images/me.JPG" alt="photo" class="my-photo">
+        </div>
+        <!--MY PHOTO-->
+        <!--DESCRIPTION-->
+        <div>
+            <h1 class="name">BRUCKERT ANTHONY</h1>
+            <p class="job">DEV Web and Web Mobile</p>
+        </div>
+        <!--/DESRIPTION-->
+    </section>
+    <!--/WELCOME SECTION-->
+    <!--PROJECTS SECTION-->
+    <section id="projects" class="projects">
+        <h2>PROJECTS</h2>
+        <!--PROJECTS GRID-->
+        <div class="gallery">
+            <a href="">
+                <img src="images/image1.jpg" alt="project" class="project-img"/>
+            </a>
+            <a href="">
+                <img src="images/image2.jpg" alt="project" class="project-img"/>
+            </a>
+            <a href="">
+                <img src="images/image3.jpg" alt="project" class="project-img"/>
+            </a>
+            <a href="">
+                <img src="images/image4.jpg" alt="project" class="project-img"/>
+            </a>
+            <a href="">
+                <img src="images/image4.jpg" alt="project" class="project-img"/>
+            </a>
+            <a href="">
+                <img src="images/image4.jpg" alt="project" class="project-img"/>
+            </a>
+        </div>
+        <!--/PROJECTS GRID-->
+    </section>
+    <!--/PROJECTS SECTION-->
+    <!--CONTACT SECTION-->
+    <section id="contact" class="contact">
+        <!--FORMULAIRE-->
+        <form class="contact-form">
+            <p class="title-form">Requiest Form:</p>
+            <div>
+                <label for="name">Name:
+                    <input id="name" type="text" name="name" class="formulaire" required/>
+                </label>
+            </div>
+            <div>
+                <label for="email">Email:
+                    <input id="email" type="email" name="email" class="formulaire" required/>
+                </label>
+            </div>
+            <div>
+                <label for="description">Requiest: <span>(max 250chr)</span>
+                    <textarea id="description" name="description" placeholder="Describe your requiest" class="formulaire" maxlength="250"></textarea>
+                </label>
+            </div>
+            <div>
+                <button type="submit" value="Send" class="button">Send</button>
+            </div>
+        </form>
+        <!--FORMULAIRE-->
+        <!--MAP-->
+        <div class="map">
+            <p class="title-map">POSITION:</p>
+            <img src="images/map.png" alt="map" class="map-img" />
+        </div>
+        <!--/MAP-->
+    </section>
+    <!--/CONTACT SECTION-->
+    <!--FOOTER-->
+    <footer id="footer" class="footer">
+        <div>
+            <p class="footer-title">Thanks for the watching, follow me on:</p>
+        </div>
+        <div class="lien">
+            <a>GITHUB</a>
+            <a>LINKEDIN</a>
+            <a>EMAIL</a>
+        </div>
+    </footer>
+    <!--/FOOTER-->     
+</body>
+</html>
